@@ -6,5 +6,5 @@ int main()
 
     uint32 i = 0;
 
-	return 0;
+    return 0;
 }

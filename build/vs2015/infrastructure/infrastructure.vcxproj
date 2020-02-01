@@ -132,15 +132,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\..\include\Assert.h" />
     <ClInclude Include="..\..\..\include\Defs.h" />
+    <ClInclude Include="..\..\..\include\Mutex.h" />
     <ClInclude Include="..\..\..\include\Types.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\Assert.cpp" />
+    <ClCompile Include="..\..\..\src\Mutex.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

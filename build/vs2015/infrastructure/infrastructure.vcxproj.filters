@@ -32,6 +32,9 @@
     <ClInclude Include="..\..\..\include\ThreadSpecific.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\Time.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\Assert.cpp">
@@ -44,6 +47,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\ThreadSpecific.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Utc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

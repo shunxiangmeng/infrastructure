@@ -134,12 +134,17 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\include\Assert.h" />
     <ClInclude Include="..\..\..\include\Defs.h" />
+    <ClInclude Include="..\..\..\include\Function.h" />
+    <ClInclude Include="..\..\..\include\FunctionTemplate.h" />
     <ClInclude Include="..\..\..\include\Mutex.h" />
+    <ClInclude Include="..\..\..\include\ThreadSpecific.h" />
     <ClInclude Include="..\..\..\include\Types.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\Assert.cpp" />
+    <ClCompile Include="..\..\..\src\Function.cpp" />
     <ClCompile Include="..\..\..\src\Mutex.cpp" />
+    <ClCompile Include="..\..\..\src\ThreadSpecific.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
